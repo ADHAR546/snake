@@ -2,8 +2,8 @@ const canvas = document.getElementById('gameCanvas');
 const ctx = canvas.getContext('2d');
 
 
-canvas.width = 600;
-canvas.height = 600;
+canvas.width = 400;
+canvas.height = 400;
 
 const box = 20;
 let snake = [{ x: 200, y: 200 }];
